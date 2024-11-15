@@ -1,0 +1,50 @@
+{
+  "id": "1f0c5dad-0ba4-4b43-a906-dfc957dd0929",
+  "name": "Jura",
+  "publisher": "BCSYS",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "14812487-0495-4ee7-95a6-537fbfa04970",
+      "name": "JURA Core",
+      "publisher": "JURA Elektroapparate AG",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "b79e686d-e665-4861-9ba0-06202936c781",
+      "name": "JURA Service",
+      "publisher": "JURA Elektroapparate AG",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith","TranslationFile"
+  ],
+  "supportedLocales": [
+    "en-US",
+    "fr-FR"
+  ],
+  "target": "OnPrem"
+}

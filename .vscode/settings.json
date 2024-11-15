@@ -1,0 +1,48 @@
+{
+    "al.backgroundCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}"
+    ],
+    "al.enableCodeActions": true,
+    "al.enableCodeAnalysis": true,
+    "al.packageCachePath": "./.alpackages",
+    "al.ruleSetPath": "./codeanalysis/BCSYS.ruleset.json",
+    "CRS.AlSubFolderName": "src",
+    "CRS.DisableCRSSnippets": true,
+    "CRS.FileNamePattern": "<ObjectTypeShort><ObjectId>.<ObjectNameShort>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectTypeShort><BaseId>-Ext<ObjectId>.<ObjectNameShort>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectTypeShort>Cust<BaseId>.<ObjectNameShort>.al",
+    "CRS.ExtensionObjectNamePattern": "<BaseName>",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.RemoveUnderscoreFromFilename": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX"
+    ],
+    "todo-tree.tree.showCountsInTree": true,
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.azALDevTools",
+            "interval": 10,
+            "sequence": [
+                "azALDevTools.ConvertEditorObjectIdsToNames",
+                "azALDevTools.RemoveEditorWithStatements",
+                "azALDevTools.AddMissingEditorParentheses",
+            ]
+        }
+    ],
+ "al.assemblyProbingPaths": [
+        "./.netpackages",
+        "C:\\Windows\\assembly",
+        "C:/Program Files (x86)/Microsoft Dynamics 365 Business Central/240/RoleTailored Client/Add-ins",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/240/Service/Add-ins",
+        "C:/Program Files/Microsoft Dynamics 365 Business Central/240/Service/Add-ins"
+    ],
+    "xliffSync.baseFile": "Jura.fr-FR.g.xlf",
+ 
+}

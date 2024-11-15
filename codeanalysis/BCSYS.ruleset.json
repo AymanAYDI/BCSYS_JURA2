@@ -1,0 +1,36 @@
+{
+    "name": "BCSYS",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "The file xxx.al has an incorrect name. The valid name is yyy.al."
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "The name of variables and parameters must be suffixed with the type or object name."
+        },
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "The Tooltip property for xxx must be filled"
+        },
+        {
+            "id": "AA0074",
+            "action": "None",
+            "justification": "Variable xxx must have a suffix from this list: Msg, Tok, Err, Qst, Lbl, Txt."
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Variable xxx with placeholders should have a comment explaining their content."
+        },
+        {
+            "id": "AL0432",
+            "action": "None",
+            "justification": "XXXX is marked for removal"
+        }
+    ]
+}
